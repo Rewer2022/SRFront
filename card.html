@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="scriptCard.js" defer></script>
+        <link rel="stylesheet" href="styleCard.css">
+        <link rel="icon" href="Images/Card.png" />
+        <title>
+            Cards
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Користувач vs Комп’ютер</h2>
+            <div class="scoreboard">
+                <div class="player">
+                    <h3 id="user"></h3>
+                    <div id="user-score" class="score">0</div>
+                    <img id="user-card" class="card" src="ImagesCard/ace.png" alt="NAN">
+                </div>
+                <div class="generate">
+                    <button id="generate-button">Generate</button>
+                </div>
+                <div class="player">
+                    <h3>Комп’ютер</h3>
+                    <div id="computer-score" class="score">0</div>
+                    <img id="computer-card" class="card" src="ImagesCard/ace.png" alt="NAN">
+                </div>
+            </div>
+            <div id="result" class="result"></div>
+            <div>
+                <button id="restart-button" class="restart-button">Restart</button>
+            </div>
+            <button id="returnButton" class = "return-button">Return</button>
+        </div>
+    </body>
+</html>

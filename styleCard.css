@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("ImagesCard/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(#ecbd57, #c0891a);
+  text-align: center;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 0px;
+  box-shadow: 0 0 35px rgba(73, 73, 73, 0.6);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 1px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.player {
+  width: 75px;
+  text-align: center;
+  align-items: center;
+}
+
+.score, .number {
+  margin-left: 20px;
+  border: 2px #000 solid;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.score {
+  background-color: #2196F3;
+}
+
+.number {
+  background-color: #FFEB3B;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  margin-top: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.generate button {
+  font-size: 20px;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+  padding: 10%;
+  margin-right: 70px;
+  margin-left: 55px;
+  margin-top: 40%;
+  border: 1px #000 solid;
+  border-radius: 20px;
+  -webkit-text-stroke-width: 0px;
+}
+
+.generate button:hover{
+  box-shadow: 0 0 35px #357e38;
+}
+
+.restart-button{
+  font-size: 20px;
+  background-color: #3437bd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5%;
+  margin-top: 5%;
+  margin-left: 25px;
+  border-radius: 20px;
+  -webkit-text-stroke-width: 0px;
+}
+
+.return-button{
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  padding: 5%;
+  margin-top: 5%;
+  margin-left: 25px;
+  border-radius: 20px;
+  -webkit-text-stroke-width: 0px;
+}
+
+.restart-button:hover{
+  box-shadow: 0 0 35px #3437bd;
+}
+
+.return-button:hover{
+  box-shadow: 0 0 35px #000000;
+}
+
+.result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .score, .number {
+      font-size: 18px;
+      padding: 15px;
+  }
+  
+  .generate button {
+      font-size: 15px;
+      padding: 10%;
+  }
+}
