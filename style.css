@@ -1,7 +1,18 @@
+html, body {
+  height: 100%;
+}
+
+header{
+  width: 100%;
+  color: white;
+  background: linear-gradient(rgb(22, 69, 114), rgb(44, 107, 165));
+}
+
 body{
   background: url(Images/Background.gif);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
   margin: 0;
@@ -11,6 +22,11 @@ body{
   font-family: Arial, sans-serif;
   color: #fff;
   font-family: Arial Black;
+  background-attachment: fixed;
+}
+
+footer {
+  width: 100%;
 }
 
 .game-image {
