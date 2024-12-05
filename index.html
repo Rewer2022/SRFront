@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,13 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="container-games text-center">
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Game Selection</h1>
+      <p>Choose a game to play</p>
+    </div>
+  </header>
+  <div class="container-games text-center mt-4">
     <h1>Select Your Game</h1>
     <div class="game-container"></div>
     <div class="mb-3">
@@ -19,5 +25,10 @@
     </div>
     <button id="playGame" class="control-button button-style" style="--primary-color: rgba(0, 200, 0, 1); --secondary-color: rgba(0, 150, 0, 1);"><span>Play</span></button>
   </div>
+  <footer class="bg-dark text-white py-3 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2024 Games | All Rights Reserved</p>
+    </div>
+  </footer>
 </body>
 </html>
